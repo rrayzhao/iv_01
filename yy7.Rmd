@@ -16,7 +16,10 @@ modified
 t as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r cars}
+library(git2r)
 summary(cars)
+r = revparse_single(".","HEAD")
+sha(r)
 ```
 
 ## Including Plots
