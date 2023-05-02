@@ -20,6 +20,7 @@ library(git2r)
 summary(cars)
 r = revparse_single(".","HEAD")
 sha(r)
+system("git rev-parse HEAD", intern=TRUE)
 ```
 
 ## Including Plots
