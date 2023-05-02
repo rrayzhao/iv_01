@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 modified
 
-t as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+t as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this: test again
 
 ```{r cars}
 library(git2r)
